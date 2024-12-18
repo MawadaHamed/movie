@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:movie_app/tabs/movies_categories/movie_categories_item.dart';
 import 'package:movie_app/tabs/movies_home/movies_home.dart';
-import 'package:movie_app/tabs/search/search_tab.dart';
+import 'package:movie_app/tabs/search/search_screen.dart';
 import 'package:movie_app/tabs/watched_list/watched_list_screen.dart';
 import 'package:movie_app/theme_app.dart';
 
@@ -17,7 +17,7 @@ class _HomeScreenState extends State<HomeScreen> {
   int currentIndex = 0;
   List<Widget> tabs = [
     MoviesHomeScreen(),
-    SearchTab(),
+    MovieSearchScreen(),
     MovieCategoryItems(),
     WatchedListScreen()
   ];

@@ -23,7 +23,7 @@ class ThemeApp {
             color: Colors.white,
           ),
           titleSmall: TextStyle(
-            fontSize: 13,
+            fontSize: 14,
             fontWeight: FontWeight.w400,
             color: lightgray,
           )));
